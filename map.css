@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+}
+
+nav{
+    width: 7rem;
+    height: 100%;
+    position: fixed;
+    background-color: #A7160D;
+    padding-top: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.upper img{
+    width: 9rem;
+    margin-left: -1rem;
+}
+
+.bilder{
+    margin-left: 0.8rem;
+}
+.bilder a img{
+    width: 5rem; 
+    height: auto;
+    margin-top: 1rem;
+}
+
+.upper hr{
+    width: 80%;
+    height: 2px;
+    background-color:#E5AE4C;
+    border-color:#E5AE4C ;
+}
+
+.lower img{
+    width: 5rem;
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+
+.box{
+    width: 90%;
+    margin-left: auto;
+}
+
+.logo{
+    width: 30%;
+    height: auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+header{
+    text-align: center;
+}
+
+main{
+    margin-bottom: 35px;
+}
+
+.kartan{
+    border-radius: 40px;
+}
+
+.kartan_runt{
+    background-color: #A7160D;
+    width: 1000px;
+    padding: 50px;
+    border: 5px solid #E5AE4C;
+    border-radius: 40px;
+    margin: auto;
+}
+
+footer{
+    width: 110%;
+    margin-left: -10%;
+    height: 150px;
+    background-color: #A7160D;
+}

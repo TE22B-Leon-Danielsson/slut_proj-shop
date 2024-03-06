@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+}
+
+nav{
+    width: 7rem;
+    height: 100%;
+    position: fixed;
+    background-color: #A7160D;
+    padding-top: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.upper img{
+    width: 9rem;
+    margin-left: -1rem;
+}
+
+.bilder{
+    margin-left: 0.8rem;
+}
+.bilder a img{
+    width: 5rem; 
+    height: auto;
+    margin-top: 1rem;
+}
+
+.upper hr{
+    width: 80%;
+    height: 2px;
+    background-color:#E5AE4C;
+    border-color:#E5AE4C ;
+}
+
+.lower img{
+    width: 5rem;
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+.car{
+    width: 70%;
+    height: auto;
+}
+
+.box{
+    width: 90%;
+    margin-left: auto;
+}
+.logo{
+    width: 30%;
+    height: auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+header{
+    text-align: center;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin: auto;
+    margin-right: 45px;
+}
+
+.ram{
+    width: 100%;
+    height: 225px;
+    background-color: #E5AE4C;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.ram2{
+    width: 97%;
+    height: 95%;
+    margin: auto;
+    background-color: #A7160D;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.object{
+    width: 97%;
+    height: 95%;
+    margin: auto;
+    background-color: #000;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.linjen{
+    width: 80%;
+    height: 4px;
+    border-radius: 40px;
+    border-color: #E5AE4C;
+    background-color: #E5AE4C;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.first{
+    font-size: x-large;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    
+}
+
+.first_text > p{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.first_text{
+    grid-column: 1/1;
+    grid-row: 1/1;
+    margin: auto;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+    width: 70%;
+    gap: 20px;
+}
+
+.middle > p{
+    margin-bottom: 0;
+}
+
+.last{
+    margin-top: 80px;
+    font-size: x-large;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.red{
+    height: 450px;
+    width: auto;
+    grid-column: 2/2;
+}
+.blue{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    height: 450px;
+    width: auto;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+footer{
+    width: 110%;
+    margin-left: -10%;
+    height: 150px;
+    background-color: #A7160D;
+}
